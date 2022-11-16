@@ -23,8 +23,6 @@ resource "aws_instance" "t2_c_c" {
 
   security_groups = [
     aws_security_group.security_group.id,
-    aws_security_group.security_group.id,
-    aws_security_group.security_group.id,
   ]
 }
 
